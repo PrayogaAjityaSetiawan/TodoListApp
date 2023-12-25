@@ -27,7 +27,7 @@ function App() {
 
   return (
     <>
-      <div className="w-full h-[100dvh] bg-gradient-to-r from-emerald-400 to-cyan-400 flex flex-col items-center  ">
+      <div className="w-full h-[100vh] bg-gradient-to-r from-emerald-400 to-cyan-400 flex flex-col items-center  ">
         <Toaster
               position="top-center"
               reverseOrder={false}
