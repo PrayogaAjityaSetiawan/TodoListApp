@@ -27,7 +27,7 @@ const Todo = ({text,todos,todo,setTodos}) => {
 
     
     return (
-            <div className="w-[320px] flex items-center justify-between bg-white rounded-lg">
+            <div className="w-[310px] lg:w-[320px] flex items-center justify-between bg-white rounded-lg">
                 <li className={`${todo.completed ?  "line-through italic text-gray-500 capitalize p-3" : "p-3 capitalize"}`}>{text}</li>
                 <div>
                     <button onClick={deleteHandler} className="bg-red-500 py-2 p-3 text-white"><MdDelete/></button>
